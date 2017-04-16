@@ -1,0 +1,518 @@
+body {
+	background-color:#4D1D1D;
+	margin-top:0px;
+	margin-left:0px;
+	max-width:1000px}
+
+.open {	
+	display: block;
+	margin:5px 5px 5px 5px;}
+	
+.closed { 
+	display: none;}
+
+
+
+.centerContent {
+	width:792px;
+	background-color:#FFFFFF;
+	float:left;
+	border:none;
+	overflow:hide;
+	padding-bottom:25px}
+
+.storyHeadline {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#2D3359;
+	font-weight:bold;
+	letter-spacing:-1px}
+
+.alert {
+	background-color:#FF0000;
+	padding:2px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFFFFF}
+
+p {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+.p {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+	
+p.story {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#000000}
+	
+p.announcementlist {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:4px;
+	color:#000000}
+
+.medp {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+.smallType {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000}
+
+.BoldWhite10 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#ffffff}
+
+.BoldWhite11 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#ffffff}
+
+.white11 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ffffff}
+
+.BoldWhite12 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff}
+	
+.BoldWhite14 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff}
+
+.black10 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000}
+
+.black11 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000}
+
+.black12 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+.black14 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+.boldBlack10 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#000000}
+
+.boldBlack11 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000}
+
+.boldBlack12 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000}
+
+.boldBlack13 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000}
+
+.boldBlack18 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#000000}
+
+.boldBlack21 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:21px;
+	font-weight:bold;
+	color:#000000}
+
+.BoldBlue11 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#2d3359}
+
+.BoldBlue12 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#2d3359}
+
+.boldBlue14 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#2d3359}
+
+.boldBlue16 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#2d3359}
+
+.redBold12 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#990000}
+
+.advertisement {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#999999;
+	text-align:center;
+	border-top:1px solid #999999}
+
+ul {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+li {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+	
+.orangeBullet {
+	color:#EB2907;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif}
+
+.headlineBullet {
+	float:left;	
+	margin-top:5px;
+	width:12px;
+	color:#EB2907;
+	font-size:10px;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:100%}
+
+a:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2D3359; text-decoration:underline}
+a:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2D3359; text-decoration:underline}
+a:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2D3359; text-decoration:underline}
+a:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#EB2907; text-decoration:underline}
+
+a.Orange10:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#F27B1D; text-decoration:underline}
+a.Orange10:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#F27B1D; text-decoration:underline}
+a.Orange10:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#F27B1D; text-decoration:underline}
+a.Orange10:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#ffffff; text-decoration:underline}
+
+a.red10:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#990000; text-decoration:underline}
+a.red10:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#990000; text-decoration:underline}
+a.red10:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#990000; text-decoration:underline}
+a.red10:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#EB2907; text-decoration:underline}
+
+a.redBold12:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight:bold; color:#990000; text-decoration:underline}
+a.redBold12:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight:bold; color:#990000; text-decoration:underline}
+a.redBold12:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight:bold; color:#990000; text-decoration:underline}
+a.redBold12:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight:bold; color:#EB2907; text-decoration:underline}
+
+a.redBold14:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight:bold; color:#990000; text-decoration:underline}
+a.redBold14:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight:bold; color:#990000; text-decoration:underline}
+a.redBold14:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight:bold; color:#990000; text-decoration:underline}
+a.redBold14:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight:bold; color:#EB2907; text-decoration:underline}
+
+a.White10:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; text-decoration:underline}
+a.White10:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; text-decoration:underline}
+a.White10:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; text-decoration:underline}
+a.White10:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; text-decoration:underline}
+
+a.WhiteBold10:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; font-weight:bold; text-decoration:underline}
+a.WhiteBold10:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; font-weight:bold; text-decoration:underline}
+a.WhiteBold10:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; font-weight:bold; text-decoration:underline}
+a.WhiteBold10:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#EB2907; font-weight:bold; text-decoration:underline}
+
+a.WhiteBold11:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; font-weight:bold; text-decoration:underline}
+a.WhiteBold11:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; font-weight:bold; text-decoration:underline}
+a.WhiteBold11:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; font-weight:bold; text-decoration:underline}
+a.WhiteBold11:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#EB2907; font-weight:bold; text-decoration:underline}
+
+a.White11:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:underline}
+a.White11:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:underline}
+a.White11:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:underline}
+a.White11:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#EB2907; text-decoration:underline}
+
+a.WhiteBold13:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#ffffff; text-decoration:underline}
+a.WhiteBold13:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#ffffff; text-decoration:underline}
+a.WhiteBold13:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#ffffff; text-decoration:underline}
+a.WhiteBold13:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#ffffff; text-decoration:underline}
+
+a.BlueBold10:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold10:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold10:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold10:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;	color:#EB2907; font-weight:bold; text-decoration:underline}
+
+a.Blue10:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; text-decoration:underline}
+a.Blue10:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; text-decoration:underline}
+a.Blue10:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#2d3359; text-decoration:underline}
+a.Blue10:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;	color:#EB2907; text-decoration:underline}
+
+a.BlueBold11:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold11:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold11:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold11:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#EB2907; font-weight:bold; text-decoration:underline}
+
+a.Blue11:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#2d3359; text-decoration:underline}
+a.Blue11:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#2d3359; text-decoration:underline}
+a.Blue11:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#2d3359; text-decoration:underline}
+a.Blue11:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#EB2907; text-decoration:underline}
+
+a.BlueBold12:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold12:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold12:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#2d3359; font-weight:bold; text-decoration:underline}
+a.BlueBold12:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#EB2907; font-weight:bold; text-decoration:underline}
+
+a.BlackBold11Plain:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000000; font-weight:bold; text-decoration:none}
+a.BlackBold11Plain:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000000; font-weight:bold; text-decoration:none}
+a.BlackBold11Plain:active {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000000; font-weight:bold; text-decoration:none}
+a.BlackBold11Plain:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#EB2907; font-weight:bold; text-decoration:underline}
+
+.pageTab {
+	background-image:url(/pix/pagetabs/pageTabCenter.gif);
+	background-repeat:repeat-x;
+	height:19px;
+	margin-right:1px;
+	margin-left:1px}
+
+.pageHead {
+	border:none;
+	height:23px;
+	margin-bottom:18px}
+
+.dottedLine {
+	border-top:1px dotted #999999}
+
+.dottedLineTop {
+	border-bottom:1px dotted #999999}
+
+.dottedLineBottom {
+	border-top:1px dotted #999999}
+
+input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000}
+
+select {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+input.bizdir {
+	font-size:11px;
+	width:120px}
+	
+select.bizdir {
+	font-size:11px;
+	width:120px}
+
+.landscapeAdContainer {
+	width:568px;
+	margin-bottom:10px}
+
+.landscapeAd {
+	width:568px;
+	height:89px;
+	margin-bottom:5px;
+	text-align:center;
+	border:none}
+
+.bannerAdContainer {
+	width:100%;
+	margin-bottom:10px}
+
+.bannerAd {
+	width:468px;
+	height:60px;
+	margin-bottom:5px;
+	text-align:center;
+	border:none}
+
+.tileAd {
+	width:138px;
+	height:50px;
+	margin-bottom:5px;
+	text-align:center;
+	border:none}
+
+.towerAd {
+	width:120px;
+	height:240px;
+	margin-bottom:5px;
+	text-align:center;
+
+	border:none}
+.towerAdHome {
+	width:120px;
+	height:240px;
+	margin-bottom:5px;
+	margin-left:40px;
+	text-align:center;
+
+	border:none}
+
+
+.miniBanner {
+	width:198px;
+	height:40px;
+	margin-bottom:5px;
+	text-align:center;
+	border:none}
+
+.buttonAd {
+	width:125px;
+	height:100px;
+	margin-bottom:5px;
+	border:none}
+
+.boxAd {
+	width:198px;
+	height:80px;
+	margin-bottom:5px;
+	border:none}
+
+.skyscraperAd {
+	width:120px;
+	height:580px;
+	margin-bottom:5px;
+	border:none}
+
+.skyscraperSide {
+	position:absolute;
+	top:10px;
+	left:795px;
+	width:120px;
+	height:580px;
+	border:none}
+
+.columnHeadRed {
+	background-color:#9C0101;
+	border:none;
+	margin:0;
+	padding:0;
+	text-align:left}
+
+.columnHeadBlue {
+	background-color:#404880;
+	border:none;
+	margin-bottom:1px;
+	padding:0;
+	text-align:left}
+
+.pageRightElementContainer {
+	background-color:#D0D7E7;
+	margin-bottom:5px;
+	margin-top:0px}
+	
+.pageRightElement {
+	padding:9px;
+	margin-top:0;
+	text-align:left}
+	
+.rightElement {
+	text-align:left;
+	padding:3px}
+
+.headlineLinksContainer {
+	width:100%;
+	margin-bottom:5px;
+	text-align:left}
+
+.headlineLink {
+	float:left;
+	margin-bottom:5px;
+	margin-top:5px}
+
+.noMargin {
+	margin:0 0 0 0}
+
+.grayRule {
+	width:100%;
+	margin:0 0 -20px 0;
+	border-top:1px solid #cccccc}
+
+/* 3 Column Page */
+.newsThreeColumn1 {
+	width:120px;
+	text-align:center;
+	padding:9px 23px 9px 9px}
+
+.newsThreeColumn2 {
+	text-align:left;
+	padding-top:9px}
+
+.newsThreeColumn3 {
+	width:138px;
+	text-align:center;
+	padding:9px 9px 9px 23px}
+
+/* Ticker Styles */
+.tickertext {
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	margin-left:10px}
+
+#listbutton{
+border:2px solid #EDC1C1;
+background-color:#F3F3F3;
+padding:5px 15px;
+margin-right:10px;
+font: normal 11px Arial;
+text-align:center;
+cursor:pointer;cursor:hand;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:12px
+}
+
+.expandhighlight, .expandhighlight a{
+color:white;
+}
+
+a.tickerlink {font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; text-decoration:underline; color:#ffffff}
+a.tickerlink:visited {font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; text-decoration:underline; color:#ffffff}
+a.tickerlink:active {font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; text-decoration:underline; color:#ffffff}
+a.tickerlink:hover {font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; text-decoration:none; color:#000000}
+
+/* End Ticker Styles */
+tr.alternate1 {
+	border:1px solid #cccccc;
+	padding:5px 0 5px 0;
+	background-color:#F0F0F0}
+
+tr.alternate2 {
+	padding:5px 0 5px 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000}
+
+.webAd {
+	margin:10px 0}

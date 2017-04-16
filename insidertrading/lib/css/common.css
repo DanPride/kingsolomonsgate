@@ -1,0 +1,234 @@
+/***************************************************************************
+ *                             default.css
+ *                            ------------------
+ *	 AUTHOR				  : Kevin K. Nelson
+ *   EMAIL                : knelson@taoti.com
+ *   COPYRIGHT            : (C) 2005 Taoti Enterprises International, Inc.
+ *                           -  ALL RIGHTS RESERVED
+ *
+ *   LAST UPDATED         : 2005-10-18
+ *
+ *   PURPOSE              : To provide a default template for CSS tag
+ *                          definitions and consistent class names as well
+ *                          as a consistent layout for where definitions go.
+ *                          The order of definitions for this CSS page are:
+ *                            * tag definitions
+ *                            * table classes (e.g. classes for <td> or <tr>)
+ *                            * text classes (e.g. classes for <p>)
+ *                            * anchor tag classes (for various link classes)
+ *
+ ***************************************************************************/
+
+/*******************************************************************
+TAG DEFINITIONS
+   - only change colors, font-family, and size as needed.  Try not
+     to write too many tag definitions beyond what's here
+*******************************************************************/
+html {
+	scrollbar-face-color: 		#3C0601;
+	scrollbar-track-color: 		#741B15;
+	scrollbar-arrow-color: 		#F1DECF;
+	scrollbar-3dlight-color: 	#A67E02;
+	scrollbar-highlight-color: 	#F1DECF;
+	scrollbar-shadow-color: 	#140201;
+	scrollbar-darkshadow-color: black;
+}
+body {
+	scrollbar-face-color: 		#3C0601;
+	scrollbar-track-color: 		#741B15;
+	scrollbar-arrow-color: 		#F1DECF;
+	scrollbar-3dlight-color: 	#A67E02;
+	scrollbar-highlight-color: 	#F1DECF;
+	scrollbar-shadow-color: 	#140201;
+	scrollbar-darkshadow-color: black;
+	margin:						0px 0px 0px 0px;
+	background-image:			url(../images/bkgnd.jpg);
+	background-repeat:			repeat-x;
+	background-color:			#FFFFFF;
+}
+td {
+	vertical-align:				top;
+	padding:					0px 0px 0px 0px;
+}
+body, td, div, p, blockquote, h1, h2, h3, h4, h5, h6, ul, ol {
+	font-family:				Times New Roman, serif;
+	font-size:					12px;
+	color:						black;
+}
+p, blockquote, h1, h2, h3, h4, h5, h6, ul, ol {
+	margin-top:					0px;
+	margin-bottom:				12px;
+}
+h1 {
+	font-size:					18px;
+	color:						#661C1C;
+}
+textarea, input, select {
+	font-family:				Verdana, Arial, Helvetica, sans-serif;
+	font-size:					10px;
+}
+p, blockquote {
+	text-align:					justify;
+}
+legend { 
+	color:						black;
+	font-size:					16px;
+}
+
+form   { margin:				0px 0px 0px 0px; }
+img    { border-style:			none; }
+
+a:link, a:visited { color:		#716E64; text-decoration:	underline; }
+a:hover, a:active { color:		#938F86; text-decoration:	underline; }
+
+/*******************************************************************
+TABLE CLASSES
+   - these are some default classes that many of our applications
+     use.  If this is a static site with no applications, then
+	 removing these would probably not be harmful.  Otherwise,
+	 change colors, margins, etc., as needed when they do not
+	 have the desired look.  If I might work on the site, there
+	 is a good chance that I will want these classes, though.
+*******************************************************************/
+.margin_centered {
+	margin-left:		auto;
+	margin-right:		auto;
+}
+.left_form_cell {
+	padding:			3px 3px 3px 3px;
+	font-weight:		bold;
+	border-style:		solid;
+	border-width:		0px 0px 1px 0px;
+	border-color:		#DDDDDD;
+	vertical-align:		middle;
+}
+.right_form_cell {
+	padding:			3px 3px 3px 3px;
+	border-style:		solid;
+	border-width:		0px 0px 1px 0px;
+	border-color:		#DDDDDD;
+	vertical-align:		middle;
+}
+.left_info_cell {
+	padding:			5px 5px 5px 5px;
+	font-weight:		bold;
+	border-style:		solid;
+	border-width:		0px 0px 1px 0px;
+	border-color:		#DDDDDD;
+	vertical-align:		middle;
+}
+.right_info_cell {
+	padding:			5px 5px 5px 5px;
+	border-style:		solid;
+	border-width:		0px 0px 1px 0px;
+	border-color:		#DDDDDD;
+	vertical-align:		middle;
+}
+.title_cell {
+	font-weight:		bold;
+	font-size:			14px;
+	padding:			3px 3px 3px 3px;
+}
+.content_cell {
+	padding:			3px 3px 3px 3px;
+}
+.row1 { background-color:#FFFFFF; }
+.row2 { background-color:#EDEDED; }
+
+/*******************************************************************
+FORM CLASSES
+   - so that, by default, forms are of the right size, etc.
+*******************************************************************/
+input.default { width:  200px; }
+
+/*******************************************************************
+TEXT CLASSES
+   - I want these to be our default text definitions across the 
+     board...so that when any of us are on a site, we can simply
+	 type "class='small'" or "class='right'"into a tag and know that 
+	 it's going to work
+*******************************************************************/
+.page_title {
+	font-size:			16px;
+	font-weight:		bold;
+	color:				navy;
+}
+.heading {
+	margin: 			0px 0px 0px 0px; 
+	font-size:			14px;
+	color:				navy;
+	font-weight:		bold;
+}
+.small_descr {
+	font-size:			10px;
+	font-weight:		bold;
+}
+.lined {
+	border-style:		solid;
+	border-width:		0px 0px 1px 0px;
+	border-color:		navy;
+}
+.xsmall { font-size:	9px; }
+.small  { font-size: 	10px; }
+.normal { font-size: 	12px; }
+.medium { font-size:	14px; }
+.large  { font-size: 	16px; }
+.xlarge { font-size:    18px; }
+.huge   { font-size: 	20px; }
+
+.left    { text-align: 	left; }
+.center  { text-align: 	center; }
+.right   { text-align: 	right; }
+.justify { text-align: 	justify; }
+
+.top    { vertical-align: middle; }
+.middle { vertical-align: middle; }
+.bottom { vertical-align: bottom; }
+
+.bold   { font-weight:	bold; }
+.italic { font-style:	italic; }
+
+.color_light { color:	orange; }
+.color_dark  { color:	navy; }
+
+.block      { display:	block; }
+.no_display { display:	none; }
+
+/*******************************************************************
+OUR PHP LIBRARY'S status_message() CLASS DEFINITIONS
+   - like the table classes, these are specific to the application,
+     and can be removed for static sites.
+*******************************************************************/
+.status_container {
+	margin:				20px 10px 20px 10px;
+	padding:			3px 5px 3px 10px;
+	border-style:		solid;
+	border-color:		#CCCCCC;
+	border-width:		0px 0px 0px 1px;
+}
+.status_title {
+	font-size:			16px;
+	font-weight:		bold;
+	color:				navy;
+	border-style:		solid;
+	border-width:		0px 0px 1px 0px;
+	border-color:		navy;
+}
+.status_message {
+	font-size:			12px;
+	color:				navy;
+}
+
+/*******************************************************************
+ANCHOR TAG CLASSES
+   - like the table classes, these are specific to the application,
+     and can be removed for static sites.
+*******************************************************************/
+.some_class a:link, .some_class a:visited {
+	color:				black;
+	text-decoration:	none;
+}
+.some_class a:hover, .some_class a:active {
+	color:				red;
+	text-decoration:	underline;
+}

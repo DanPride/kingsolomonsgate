@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName " Statistics"
+AuthName "kingsolomonsgate.com Statistics"
+AuthUserFile /var/chroot/home/content/58/3216758/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

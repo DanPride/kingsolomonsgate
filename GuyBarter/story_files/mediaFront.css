@@ -1,0 +1,51 @@
+.columnsContent {
+	float:left;
+	padding:9px 9px 9px 9px}
+
+.featuredStoryContainer {
+	width:568px}
+
+.featuredPhoto {
+	width:220px;
+	border:1px solid #000000}
+
+.featureHeadline {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#2D3359;
+	font-weight:bold;
+	letter-spacing:-1px;
+	line-height:25px}
+
+.featuredLinks {
+	margin-bottom:5px}
+
+.featuredCaption {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666666;
+	margin-top:5px}	
+
+.headlinesContainer {
+	width:568px}
+
+.headlineDottedLine {
+	border-bottom:1px dotted #999999}
+
+.mediaFrontRightContainer {
+	float:left;
+	width:198px;
+	padding-top:9px}
+
+.frontRightPollsContainer {
+	background-color:#F2F2F2;
+	margin-bottom:5px;
+	margin-top:0px}
+
+.frontRightPolls {
+	padding:9px;
+	text-align:left;
+	border:1px solid #000000}
+
+select.front {
+	width:180px}

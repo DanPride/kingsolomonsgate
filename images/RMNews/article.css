@@ -1,0 +1,170 @@
+/* RockyMountainNews.com article stylesheet - last updated 11/20/2008 - Danny DeBelius
+-------------------------------------------------------------------------------------------------------
+
+Colors
+=======================
+link blue	:	#194775
+hover red	:	#cc0000
+body text	:	#333
+
+
+------------------------------------------------------------------------------------------------------- */
+
+#story_header {margin-bottom: 10px;}
+#story_header h1 {font-size: 24px; line-height: 26px; color: #000; font-weight: bold; margin-bottom: 5px;}
+#story_header h2 {font-size: 16px; font-weight: bold; line-height: 18px; color: #666; margin-bottom: 5px;}
+#story_header h3, #story_header h4 {font-size: 11px; font-weight: bold; line-height: 13px; margin-bottom: 4px; color: #666;}
+#story_header h3 {color: #666;}
+#story_header h2 a:hover {text-decoration: underline;}
+
+#story_body {font-size: 12px; line-height: 18px; color: #333;}
+#story_body h3 {margin-top: 9px;}
+.body_list li {margin-left: 20px;}
+#story_body dt {font-weight: bold;}
+#story_body dd {margin-bottom: 9px;}
+#story_body p {font-size: 13px; line-height: 20px; color: #333; margin-bottom: 13px;}
+#story_body p a {background: url(http://denver.rockymountainnews.com/static/images/drmn/blogs/dotted_line.gif) repeat-x bottom;}
+.dateline {font-weight: bold; text-transform: uppercase;}
+
+.byline {border-top: 1px solid #ccc; padding-top: 5px;}
+.byline a {font-weight: bold;}
+.byline a:hover {text-decoration: underline;}
+
+/* reg stuff */
+
+.redtext {color:#990000;}
+
+table.registration {}
+table.registration th {background-color: #666666; font-size: 11px; text-align: left; font-weight: normal; padding: 5px; color: #FFFFFF; text-transform:uppercase; letter-spacing: 1px;}
+table.registration td {background-color: #CCCCCC; font-size: 11px; text-align: left; width: 50%; padding: 5px; font-size: 11px; line-height: 16px; color: #333333;}
+table.registration td.required {font-size: 11px; text-align: left; color: #990000; padding: 5px;}
+ul.errorlist {font-size:11px; background-color: #990000; color: #FFFFFF; display: block;}
+ul.errorlist li {font-size:11px;}
+table.registration td input {width: 95%;}
+table.registration td ul input {width: auto;}
+table.registration td.checkbox input {width: auto; font-size: 11px;}
+ul.radiolist li {font-size: 11px;}
+
+/* Yahoo Search Styles */
+
+
+.yahoo_search {color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; height:21px; left:0px; line-height:21px; position:relative; top:0px; width:340px;}
+.yahoo_search .yahoo_searchtext {color:#273E1B; font-family:"Lucida Grande",Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; height:21px; line-height:21px; float: left; margin-right: 0px;}
+.yahoo_search form {float: left;}	
+.yahoo_search input.searchfield {width:241px; float: left;}
+html > body .yahoo_search input.searchfield {width:241px; float: left;}
+.yahoo_search .powered {position: absolute; left:106px; top:31px; line-height: 10px; height: 21px;}
+
+/*----------- slash search fixes ----------------*/
+
+.yahoo_search_fix {color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; height:21px; left:0px; line-height:21px; position:relative; top:0px; width:540px;}
+.yahoo_search_fix form {float: left;}	
+.yahoo_search_fix input.searchfield {width:241px; float: left; margin-right:6px;}
+html > body .yahoo_search_fix input.searchfield {width:241px; float: left; margin-right:6px;}
+
+
+/* SEARCH SWISHe STUFF */
+
+#searchresults .pubdate {color: #666666; font-size: 11px;}
+#searchresults ol li {margin-bottom: 20px; list-style-type:decimal; padding: 0px;}
+#searchresults ul li {margin-bottom: 20px; list-style-type:none; padding: 0px;}
+#searchresults ol li {font-size: 12px; line-height: 16px; padding-left: 0px; margin-left:15px;}
+#searchresults p {margin-top: 3px;}
+
+.highlight {background-color: #FFFF00;}
+ul.searchlist li {letter-spacing:0pt; margin-bottom:8px; padding-left:10px; background: url(none); list-style: none; font-size:12px;}
+#content .sponsored_search_results {clear: both; margin-top: 10px; margin-left: 0px; margin-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 0px; border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; background-color: #EAEAEA;}
+#content .sponsored_search_results ul li {font-size: 12px; font-weight: normal; padding-bottom: 10px;}
+#content .sponsored_search_results ul li a {font-weight: bold; font-size: 12px;}
+#content .sponsored_search_results .sponsoredSearchHelp {font-size: 10px; float: right; clear: both; margin-bottom: 10px;}
+#content ul.checkboxlist_ul {font-size:11px; clear: both; list-style-type:none;}
+#content li.checkboxlist {float: left; padding-right: 10px; padding-bottom: 10px;}
+#content h2.searchresults {padding: 0px; margin: 0px; color: #333333;}
+#content .searchfields {margin-bottom: 15px;}
+#content .searchfields label {font-size:11px; font-weight: bold;}
+
+div.didyoumean {color:#990000;}
+
+#section-list-left {width: 300px; float: left;}
+#section-list-right {width: 300px; float: right;}
+.sections .bucket_list li {margin: 2px 0;}
+.sections .bucket_list li a {font-size: 11px;}
+
+/* story tools
+==================================================================================*/
+
+
+.subscribe_link {width: 614px; clear: both; margin: 15px 0;}
+.content-match-article {text-align: center;}
+
+
+#story-tools {border-top: 2px solid #ccc; padding-top: 5px; margin-top: 5px; font-size: 11px; color: #777; clear: both; height: 25px;}
+#story-tools a {color: #777;}
+#story-tools a:hover {color: #cc0000;}
+#story-tools ul {list-style: none; float: right; display: block;}
+#story-tools li {display: block; float: left; margin-left: 15px;}
+#story-tools li a {padding-left: 20px;  height: 16px; display: block; float: left; line-height: 16px;}
+#text-size {float: left;}
+#text-size img {cursor: pointer;}
+#email-story a {background: url(http://denver.rockymountainnews.com/images/icons/email-story.gif) center left no-repeat;}
+#print-story a {background: url(http://denver.rockymountainnews.com/images/icons/print-story.gif) center left no-repeat;}
+#story-comments a {background: url(http://denver.rockymountainnews.com/images/icons/story-comments.gif) center left no-repeat;}
+
+.share {border-top: 1px solid #ccc; height: 18px; padding: 5px 0 0; overflow: hidden;}
+.share h2 {color: #555 !important; float: left; display: inline;}
+#content p.explainer {margin: 0;}
+.share .explainer a {background: none !important; color: #666; font-size: 11px; padding-right: 5px; margin: 0 !important;}
+.share .explainer a:hover {text-decoration: underline;}
+
+
+
+#social_links {list-style-type: none; font-size: 10px; float: left; display: inline;}
+#social_links li {display: inline;padding-top: 2px;padding-left: 15px;}
+#social_links li a {font-weight: bold; color: #333;}
+#social_links li a:hover {color: #da1a21;}
+#social_delicious {padding-left: 4px;}
+#social_digg {padding-left: 8px;}
+#social_facebook {padding-left: 8px;}
+#social_newsvine {padding-left: 8px;}
+#social_reddit {padding-left:8px;}
+
+
+
+#featured-buckets {width: 612px;float: left; clear: both; border: 1px solid #ccc; margin: 20px 0; background: url(http://denver.rockymountainnews.com/images/featured-bg.png) 0 bottom repeat-x; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+#content #featured-buckets h2 {border-bottom: 1px solid #ccc; background: url(http://denver.rockymountainnews.com/images/header-grad.png) repeat-x; padding: 3px 3px 3px 13px; margin:0; color: #333; font-size: 18px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px;}
+#featured-buckets h3 {font-size: 13px; padding: 3px 0;}
+#featured-buckets h3 a {color: #194775;}
+#featured-buckets h3 a:hover {color: #cc0000;}
+#featured-buckets h4 {font-size: 12px; font-weight: normal; color: #444; padding: 2px 0;}
+#featured-buckets .jcarousel-container-horizontal {width: 612px; padding:0;}
+#featured-buckets .jcarousel-clip-horizontal {width:  612px; height: 175px;}
+#featured-buckets ul {width: 612px; height: 175px; overflow: hidden; list-style: none; clear: both;}
+#featured-buckets li,
+#featured-buckets .jcarousel-list li,
+#featured-buckets .jcarousel-item {float: left; list-style: none; width: 176px; padding: 0 15px 0 13px; height: 175px; border-right: 1px solid #ddd;}
+#featured-buckets .jcarousel-next-horizontal {position: absolute; top: -21px; right: 5px; width: 16px; height: 16px; cursor: pointer; background: transparent url(http://denver.rockymountainnews.com/images/red_next.gif) no-repeat 0 0;}
+#featured-buckets .jcarousel-prev-horizontal {position: absolute; top: -21px; right: 25px; width: 16px; height: 16px; cursor: pointer; background: transparent url(http://denver.rockymountainnews.com/images/red_prev.gif) no-repeat 0 0;}
+#featured-buckets li.last {border-right: none;width:174px;}
+#featured-buckets li img {border: 1px solid #ccc;}
+#featured-buckets .page {width: 40px; height: 10px; background: url(http://denver.rockymountainnews.com/images/carousel-status.gif) no-repeat; position: absolute; right: 50px; margin-top: -17px; overflow: hidden;}
+#featured-buckets #page-1 {width: 13px; height: 10px; display: block;float: left;cursor: pointer;}
+#featured-buckets #page-2 {width: 13px; height: 10px; display: block;float: left;cursor: pointer;}
+#featured-buckets #page-3 {width: 13px; height: 10px; display: block;float: left;cursor: pointer;}
+
+/* Global jcarousel 
+==================================================================================*/
+.jcarousel-container {position: relative;clear: both; }
+.jcarousel-clip {z-index: 2; padding: 0; margin: 0; overflow: hidden; position: relative;}
+.jcarousel-list {z-index: 1; overflow: hidden; position: relative; top: 0; left: 0; margin: 0; padding: 0;}
+.jcarousel-next {z-index: 3; display: none;}
+.jcarousel-prev {z-index: 3; display: none;}
+.jcarousel-item-horizontal {}
+.jcarousel-item-placeholder {background: #fff; color: #000;}
+.jcarousel-next-disabled-horizontal,
+.jcarousel-next-disabled-horizontal:hover,
+.jcarousel-next-disabled-horizontal:active {cursor: default; background-position: -16px 0 !important;}
+.jcarousel-prev-disabled-horizontal,
+.jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-prev-disabled-horizontal:active {cursor: default; background-position: -16px 0 !important;}
+li.jcarousel-item-NaN {width: 1px; height: 1px;}
+

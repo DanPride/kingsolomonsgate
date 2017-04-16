@@ -1,0 +1,112 @@
+.inline {width: 220px;}
+.inline-left {float: left; clear: left;margin: 5px 20px 10px 0;}
+.inline-right {float: right; clear: right; margin: 5px 0 10px 20px;}
+.inline .bucket {float: left; width: 200px; position: relative; background: transparent; border: none; padding: 0;}
+
+.story-tools {background: #eee; border-bottom: 1px solid #ccc;}
+.story-tools h4 {background: #fff; border-bottom: 1px solid #ccc; padding: 4px 0;}
+
+.inline .bucket_list {padding-top: 5px;}
+.inline .bucket_list li {font-size: 12px;}
+.inline .bucket li a, .inline .bucket li a:visited {color: #194775;}
+.inline .bucket li a:hover {color: #cc0000;}
+.links-inline li a img {margin: 0 3px -1px 0;}
+.links-inline strong {color: #cc0000;}
+.more-inline a.more {color: #194775; font-weight: bold; font-size: 11px; float: right;}
+.more-inline a.more:hover {color: #cc0000;}
+
+.storytools {list-style-type: none; font-size: 11px; line-height: 17px; margin-top: 10px;}
+.storytools li {height: 17px; margin-bottom: 5px; color: #333; font-weight: bold; padding-left: 33px;}
+.storytools li a:link {color: #333;}
+.storytools li a:visited {color: #333;}
+.storytools li a:hover {color: #da1a21;}
+.storytools li a:active {color: #333;}
+
+#storytools_email {background: url(http://denver.rockymountainnews.com/images/icons/email.gif) 10px 2px no-repeat;}
+#storytools_print {background: url(http://denver.rockymountainnews.com/images/icons/print.gif) 10px no-repeat;}
+#storytools_comments {background: url(http://denver.rockymountainnews.com/images/icons/comments.gif) 10px no-repeat;}
+#storytools_text {position: relative; background: url(http://denver.rockymountainnews.com/images/icons/text.gif) 10px no-repeat;}
+#storytools_text img {cursor: pointer;}
+
+
+.story-tools .share {background: #fff; margin: 10px;border: 1px solid #ccc;}
+.story-tools .share h2 {font-size: 13px !important; color: #333 !important; padding-left: 5px;}
+.story-tools .share .explainer {text-align: center; margin: 0 !important; }
+.story-tools .share .explainer a {background: none !important; color: #666; font-size: 11px; padding-right: 5px;}
+.story-tools .share .explainer a:hover {text-decoration: underline;}
+
+
+#social_links {list-style-type: none; font-size: 10px; line-height: 14px; width: 180px; margin: 0 auto;}
+#social_links li {display: inline;padding-top: 2px;padding-left: 15px;}
+#social_links li a {font-weight: bold; color: #333;}
+#social_links li a:hover {color: #da1a21;}
+#social_delicious {padding-left: 4px;}
+#social_digg {padding-left: 8px;}
+#social_facebook {padding-left: 8px;}
+#social_newsvine {padding-left: 8px;}
+#social_reddit {padding-left:8px;}
+
+
+.inline-cartoon a img {margin-bottom: 5px;}
+
+#story_body .inline .bucket p {font-size: 12px; line-height: 15px; margin: 0; padding: 0;}
+#story_body .inline .bucket p a {color: #333;}
+#story_body .inline .bucket p a:hover {color: #da1a21;}
+
+
+#poll .bucket {background: #eee url(http://denver.rockymountainnews.com/images/q.gif) 10px 10px no-repeat; border: 1px solid #ccc; width: 198px; padding: 10px;}
+.inline-poll .titlebar {background: url(../../images/drmn/nav/icon_inlinemap.gif) 189px 3px no-repeat;}
+#story_body .inline .bucket #poll_question {padding-right: 0; padding-left: 40px; float: left; position: relative; margin: 0; padding-bottom: 10px; clear: both;}
+#poll .poll_list li {clear: both; padding: 0; margin: 0; width: 100%;}
+#poll .poll_list {width: 100%;}
+li.see_results {margin-top: 10px; background: transparent !important;}
+.see_results a {font-weight: bold; }
+.see_results a:hover {text-decoration: underline;}
+
+
+
+.photothumb-inline .bucket {background: transparent; border: none; padding: 0; width: 220px;}
+#story_body .inline a.photothumb {display: block; margin-bottom: 5px;}
+#story_body .inline .bucket p.credit, #story_body .inline .bucket p.photographer {text-align: right; font-size: 10px; line-height: 10px; color: #666; margin-bottom: 5px;}
+#story_body .inline .bucket p.caption, #story_body .video-inline p {font-size: 11px;	line-height: 14px; color: #555;}
+
+#story_body .video-inline p a {background: transparent; font-weight: bold; color: #194775;}
+#story_body .video-inline p a:hover {color: #cc0000;}
+
+.big_picture {margin-bottom: 15px;}
+#story_body .big_picture p {font-size: 12px; line-height: 17px; color: #666; margin: 0;}
+#story_body .big_picture .copyright {text-align: right; font-size: 10px;}
+
+.inline a img {margin-bottom: 5px;}
+.inline h5 {font-size: 13px; line-height: 13px; margin-bottom: 5px;}
+.inline h3 {color: #003366; font-size: 16px;}
+
+#story_body .inline .bucket p.inline-gallery-tools {margin-top: 10px;}
+#story_body .inline.movie .bucket p {margin-bottom: 5px;}
+.player-inline {width: 320px;}
+.inline .player_bucket {margin: 0; padding: 0;}
+div#tools_inner{float: left; clear: left;}
+#story_body div.inline .map-inline {float: left; clear: left;}
+
+div#tools_inner {position: relative; display: block; float: left; height: 250px; width: 220px; margin-bottom: 20px; padding-right: 20px;}
+
+.text-inline p {margin: 9px 0 !important;}
+
+div#tools_inner {position: relative; display: block; float: left; height: 250px; width: 220px; margin-bottom: 20px; padding-right: 20px;}
+
+.gallery-inline h5 {font-size: 11px;}
+.gallery-inline a {background: transparent !important; color: #666; font-size: 11px;}
+.gallery-inline p {margin: 0 !important; font-size: 11px !important; clear: both;}
+.gallery-inline .navlinks {float: right;}
+
+#twitter {margin-top: 15px; padding: 0; border: 1px solid #ccc;margin-bottom: 0;}
+#twitter h2 {border-bottom: 1px solid #ccc; background: url(http://denver.rockymountainnews.com/images/header-grad.png) repeat-x bottom; padding: 2px 4px; font-size: 15px; position: relative; display: block; height: 18px; text-transform: uppercase; color: #cc0000;}
+#twitter h2 a.twitterpower  {text-indent: 0; background: transparent; display: block; position: absolute; top: 0; right: 0; background: url(http://denver.rockymountainnews.com/images/dnc/twitter-power.gif) center left no-repeat; display: block; margin-left: 5px;width: 100px; text-indent: -999em; }
+#twitter  iframe {width: 218px !important; height: 350px !important;}
+
+
+#content .recurring-inline a {color: #194775; background: none;}
+#content .recurring-inline a:hover {color: #cc0000;}
+
+.promo {width: 218px; border: 1px solid #ccc;}
+#content .promo p {font-size: 14px; margin: 0;}

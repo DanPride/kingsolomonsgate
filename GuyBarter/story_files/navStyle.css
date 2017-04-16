@@ -1,0 +1,129 @@
+.navContainer {
+	width:792px;
+	float:left;
+	clear:both;
+	background-color:#EB2907;	
+	border-bottom:2px solid #915826;
+	border-top:2px solid #F2C6A0;
+	z-index:100000}
+
+.navButtonRegion {
+	width:396px;
+	float:left;
+	z-index:100000}
+
+.navButtonMedia {
+	float:left;
+	width:260px;
+	voice-family: "\"}\""; 
+    voice-family:inherit;
+	width:260px;
+	border-left:2px solid #F2A0A0;
+	border-right:2px solid #912626;
+	z-index:10000;
+	padding-top:2px;	
+	padding-bottom:2px;
+	margin:0;
+	z-index:100000}
+
+.navButtonMediaRight {
+	float:left;
+	width:260px;
+	voice-family: "\"}\""; 
+    voice-family:inherit;
+	width:258px;
+	border-left:3px solid #F2C6A0;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin:0;
+	z-index:100000}
+
+ul.nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	z-index:100000}
+
+#nav a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:17px;
+	line-height:17px;
+	color:#ffffff;
+	text-decoration: none;
+	margin-top:0;
+	z-index:100000}
+
+#nav li a {
+	display: block;
+	text-align:center;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-color:#EB2907;
+	z-index:100000}
+
+#nav li li.dropdownitem a {
+	display: block;
+	font-weight: bold;
+	font-size:12px;
+	text-align:left;
+	color:#FFFFFF;
+	border-bottom:1px solid #A42B15;
+	border-top:1px solid #A42B15;
+	margin:0px;
+	background-color:#892B2B;
+	padding:2px 3px;
+	z-index:100000}
+
+#nav li li a:hover {
+	background-color:#EB2907;
+	color:#FFFFFF;
+	z-index:100000}
+
+li.dropdownitem {
+	/*float: left;*/
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #EB2907;
+	border: 1px solid #7d6340;
+	border-width: 0;
+	width:262px;
+	z-index:100000}
+
+li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	font-weight: normal;
+	padding: 0.5em 0 1em 0;
+	border-right: solid 1px #7d6340;
+	z-index:100000}
+
+li > ul {
+	top: auto;
+	left: auto;
+	z-index:100000}
+
+li li.dropdownitem {
+	display: block;
+	float: none;
+	background-color: transparent;
+	border: 0;
+	z-index:100000}
+
+li:hover ul, li.dropdownitem ul {
+	display: block;
+	z-index:100000}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li.dropdownitem { 
+	float: left;
+	height: 1%;
+	z-index:100000}
+	
+* html ul li.dropdownitem a { 
+	height: 1%;
+	z-index:100000}
+/* End */

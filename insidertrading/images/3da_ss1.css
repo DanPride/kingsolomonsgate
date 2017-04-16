@@ -1,0 +1,220 @@
+/*
+-----------------------------------------------------------------------------------------
+Stylesheet url        http://www.3dadvisors.com/content/styles/3da_ss1.css
+Stylesheet author     Ray Henry [reh3.com]
+Version               1.4
+Created               05.25.03
+Last Modified         07.07.03
+-----------------------------------------------------------------------------------------
+*/
+
+BODY {
+	scrollbar-3d-light-color : #FCFCFC;
+	scrollbar-arrow-color : #BABAB1;
+	scrollbar-base-color : #BABAB1;
+	scrollbar-dark-shadow-color : #FCFCFC;
+	scrollbar-face-color : #FCFCFC;
+	scrollbar-highlight-color : #F4F3EF;
+	scrollbar-shadow-color : #BABAB1;
+	margin: 0px 0px 0px 0px;
+	background: #FCFCFC;
+	width: 100%;
+	height: 100%;
+}
+	
+P {
+	font-size: 11px;
+	font-family: arial, verdana;
+	color: #000;
+}	
+
+.hpContent {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	COLOR: #000;
+	margin: 0px 10px 10px 0px;
+	line-height: 16px;
+}
+
+#hpContentCallouta, #hpContentCalloutb{font-family : Times, "Times New Roman", serif;
+	position:relative;
+	FONT-SIZE: 18px;
+	font-weight: bold;
+	width:220px;
+	COLOR: #400;
+	padding:10px;
+	line-height: 20px;
+	border:1px solid #400;
+	background:#f7f7ed;
+}
+
+#hpContentCallouta {
+	float:right;
+	margin: 10px;
+}
+
+#hpContentCalloutb {
+	float:left;
+	margin: 10px 10px 10px 0px;
+}
+
+#corpImage{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.ssTitle {font-family : verdana, arial, sans-serif;
+	FONT-SIZE: 16px;
+	font-weight: bold;
+	COLOR: #661C1C;
+	margin: 10px 0px;
+	line-height: 16px;
+}
+
+.sTitle {font-family : Times, "Times New Roman", serif;
+	FONT-SIZE: 12px;
+	font-weight: bold;
+	COLOR: #661C1C;
+	margin: 10px 0px;
+	line-height: 16px;
+}
+
+.sSubTitle {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	COLOR: #000;
+	font-weight:normal;
+}
+
+.sResults {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	COLOR: #000;
+	margin: 0px;
+}
+
+TH {font-family: arial, verdana;
+	font-size:11;
+	font-weight: bold;
+	magrin: 5px;
+}
+
+TR.searchRow {padding:5px 0px;}
+
+UL {
+	font-family: arial, verdana;
+	font-size: 11px;
+	color: #000;
+	list-style: disc;
+	margin-right:20px;
+}
+ul li {margin:7px 0;line-height:16.5px;}
+.copy {
+	font-family: arial, verdana;
+	font-size: 10px;
+	color: #444;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+.pass {
+	font-family: arial, verdana;
+	font-size: 10px;
+	color: #444;
+	text-align: left;
+	margin: 5px;
+}
+
+.button {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	BACKGROUND: #661C1C;
+	COLOR: #FFF;
+	height: 19px;
+	width: 51 px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: #000000 1px solid;
+}
+
+.login {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	BACKGROUND: #FFF;
+	COLOR: #333;
+	height: 19px;
+	width: 180 px;
+	margin: 0px 0px 0px 0px;
+	padding-left: 3px;
+	border: #000000 1px solid;
+}
+
+.searcha {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	BACKGROUND: #999;
+	COLOR: #FFF;
+	height: 19px;
+	margin: 0px;
+	padding: 0px;
+	border: #000000 1px solid;
+}
+
+.searchb {font-family : arial, verdana;
+	FONT-SIZE: 11px;
+	BACKGROUND: #661C1C;
+	COLOR: #FFF;
+	height: 19px;
+	margin: 0px;
+	padding: 0px;
+	border: #000000 1px solid;
+}
+
+a.newsLink:link {
+	font-size:11px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#716E64;
+}
+
+a.newsLink:active {
+	font-size:11px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#716E64;
+}
+
+a.newsLink:visited {
+	font-size:11px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#716E64;
+}
+  
+a.newsLink:hover {font-size:11px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#938F86;
+}
+
+a.passLink:link {
+	font-size:10px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#716E64;
+}
+
+a.passLink:active {
+	font-size:10px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#716E64;
+}
+
+a.passLink:visited {
+	font-size:10px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#716E64;
+}
+  
+a.passLink:hover {
+	font-size:10px;
+  	font-face: arial;
+  	text-decoration:underline;
+  	color:#938F86;
+}

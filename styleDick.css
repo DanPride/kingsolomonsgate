@@ -1,0 +1,140 @@
+html, body {
+	margin: auto;
+}
+
+body {
+	font: Verdana, Arial, Helvetica, sans-serif;
+		margin: auto;
+		text-align:center;
+}
+
+img {
+	border: none;
+	background: none;
+	text-decoration: none;
+	display:block;
+}
+
+a, a:link, a:active, a:visited {
+	font-size: .9em;
+	text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+  text-decoration: underline;
+	color: red;
+	font-weight:bold;
+}
+
+h1, h2, h3 {
+	font-weight: Bold;  
+	text-align:center;
+	margin:auto;
+}
+
+ h1 { 
+	font-size: 18pt; 
+	margin:auto;
+	margin-top:1em;
+	margin-bottom:0.1em;
+}
+
+	h2 { 
+	font-size: 16pt; 
+	margin:auto;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+
+	h3 {
+		font-size: 14pt;
+}
+
+hr {
+	width:50%;
+}
+	
+	div {
+		margin : auto ;
+	}
+ p { 
+	width:800px;
+	font-size: 12pt;  
+	margin: auto;
+	margin-top:1em;
+	text-align:center;
+}
+	
+ p.intro { 
+	margin: auto;
+	margin-top:1em;
+	line-height:1.5;
+	text-align:left;
+}
+
+ p.little { 
+	margin: auto;
+	margin-top:1em;
+	line-height:1.2;
+	text-align:left;
+}
+ p.littledick { 
+	margin: auto;
+	margin-top:1em;
+	line-height:1.2;
+	text-align:left;
+	background-color:#330033;
+	color:#FFFFFF;
+}
+	
+ p.enter { 
+	font-size: 24pt; 
+	font-face: Bold; 
+	margin: auto;
+	margin-top:0em;
+	text-align:center;
+}
+	
+ .image { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto }
+}
+	
+ p.text { 
+
+}
+	
+div#picPosition { 
+	width: 800px;
+	position : relative; border: 1px solid #ccc;
+	text-align: center
+	margin: auto;
+	}
+	
+div#picPosition img {
+	position : absolute; left : 820px; top : 0px;
+}
+ p.keys { 
+ width:1000px;
+	border-style:solid;
+}
+	
+ p.linklist { 
+	border-style:solid;
+}
+.lead{
+	text-align:left;
+}
+.table{
+	text-align:left;
+	 border:2;
+	 padding:7;
+	width:800px;
+	margin:auto;
+}
+
+.intimate{
+	color:#FF00FF;
+}
+

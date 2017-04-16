@@ -1,0 +1,80 @@
+body{width:800px;
+	margin:auto;
+	background-image: url(images/SebagoLake.jpg);
+	background-repeat: repeat;
+}
+	
+	ol {
+		list-style-type:none;}
+	
+#Events li h2, 	#Events li h3, 	#Events li h5{
+		display:block;
+		float:left;
+		background:#987B59;
+		color:#454E19;
+		margin-bottom:10px;
+		height:30px;
+		padding-top:5px;
+		padding-bottom:5px;
+		}
+#Events li h2{
+		width:150px;
+		font-size:1.5em;
+		margin-top:0px;
+	}
+#Events li h3{
+		width:400px;
+		font-size:1.5em;
+		margin-top:0px;
+		}			
+#Events li h5{
+		width:150px;
+		font-size:0.9em;
+		margin-top:0px;
+				}
+				
+#Events p{
+		width:700px;
+		margin-bottom:.3em;
+		clear:left;}
+
+	div#header{
+		text-align:center;
+		background:#B1BFBF;
+		color:#414A13;
+		margin-top:0px;
+		padding-top:3px;
+		
+	}
+	#footer{
+		text-align:center;
+		
+	}
+	#Events li {
+
+	}
+		ol#highlights li, 	ol#highlightsleft li{
+		text-align:center;
+		margin:0 auto;
+		width:150px;
+		display:block;
+}
+		
+	ol#highlights{
+		margin-top:0px;
+		position:relative; width:150px; top:403px; left:610px;
+		background:#749091;
+		color:#D6DFDE;
+		padding-top:10px;
+		padding-bottom:10px;
+		text-align:center;
+	}
+	ol#highlightsleft{
+		margin-top:0px;
+		position:relative; width:150px; top:310px;
+		background:#749091;
+		color:#D6DFDE;
+		padding-top:10px;
+		padding-bottom:10px;
+		text-align:center;
+	}

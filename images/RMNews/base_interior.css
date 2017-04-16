@@ -1,0 +1,328 @@
+/* RockyMountainNews.com base interior stylesheet - last updated 11/21/2008 - Danny DeBelius
+-------------------------------------------------------------------------------------------------------
+
+Colors
+=======================
+link blue	:	#194775
+hover red	:	#cc0000
+body text	:	#333
+
+
+------------------------------------------------------------------------------------------------------- */
+
+
+/* Old nav styles 
+========================================================================================================*/
+
+#header.news,
+#header.business,
+#header.sports,
+#header.entertainment,
+#header.living,
+#header.outdoors,
+#header.opinion,
+#header.multimedia,
+#header.your_space {height: 113px;}
+
+#subnav {position: absolute; top: 88px; left: 0; width: 100%; height: 25px; list-style-type: none; background: #999;}
+#subnav li {float: left;}
+#subnav li a {display: block; float: left; height: 25px; color: #fff; line-height: 25px; padding: 0 8px; font-size: 11px; font-weight: normal;}
+#subnav li.subnav_first a {margin-left: 4px;}
+#subnav li a:hover {background: #da1a21; color: #fff;}
+#header #subnav span {display: none;}
+#header.news #subnav span.subnav_news,
+#header.business #subnav span.subnav_business,
+#header.sports #subnav span.subnav_sports,
+#header.entertainment #subnav span.subnav_entertainment,
+#header.living #subnav span.subnav_living,
+#header.outdoors #subnav span.subnav_outdoors,
+#header.opinion #subnav span.subnav_opinion,
+#header.multimedia #subnav span.subnav_multimedia,
+#header.your_space #subnav span.subnav_your_space{display: block;}
+
+
+/* Section pages 
+========================================================================================================*/
+#lead_story {float: left; width: 335px; margin-bottom: 20px;}
+#secondary_stories {float: right; width: 258px;}
+#content p, bodytext p {margin-bottom: 18px; font-size: 12px; line-height: 18px; color: #333;}
+#content p a {color: #194775;}
+#content p a:hover {color: #cc0000;}
+#column2 .bucket {margin-bottom: 10px;}
+#column2 .titlebar h4 {font-size: 15px; color: #333;}
+#column2 .titlebar h4 a {color: #333;}
+#column2 .titlebar h4 a:hover {color: #cc0000;}
+#column2 h5 {font-size: 12px;}
+
+.skybox {width: 258px; padding: 5px 0; margin-bottom: 15px; float: left; clear: both;}
+.camera .skybox {margin-bottom: 10px;}
+.skybox a h4 {margin: 2px 0 0 0; font-size: 13px; width: 132px;}
+.skybox a p, #content .skybox a p {margin: 0; font-size: 12px; width: 132px; line-height: 14px; color: #555;}
+#columns {padding-top: 15px; clear: both;}
+#column1 {float: left; width: 335px;}
+#column1_50 {float: left; width: 300px;}
+#column2 {float: right; width: 258px;}
+#column2_50{float: right; width: 300px;}
+#column2 .bucket {margin-bottom: 25px;}
+
+
+h6 {color: #333333; margin-left: 0px; margin-right: 0px; margin-top: 0px; text-decoration: none; font: bold 11px Arial, Helvetica, sans-serif;}
+
+
+#column1 .section_titlebar {margin-bottom: 8px;}
+.sections {/* margin-top: 15px; Not sure why this is here... Danny D.*/}
+h1.section-title {color: #333; font-size: 30px; line-height: 30px; margin-bottom: 5px;} 
+.section_lead {display: block; margin-bottom: 15px; }
+.section_lead h5 {margin: 0 0 3px; font-size: 16px; line-height: 18px; font-weight: bold;}
+#content .section_lead p {margin-bottom: 0; color: #333;}
+#content .section_lead p.pubdate {color: #999; font-weight: normal;margin-top: 0;}
+.sections .more_red {text-transform: none; font-size: 11px;}
+.sections .more_red a {color: #333; text-transform: none;}
+
+#storynav {font-size: 15px; color: #aaa;}
+#storynav a {color: #666;}
+#storynav a:hover {text-decoration: underline; color: #cc0000;}
+
+
+#inboxes .bucket_list {margin: 0 0 15px 0;}
+
+
+#saywhat h5 a {font-size: 18px; font-weight: bold; color: #333; line-height: 24px;}
+#saywhat h5 a:hover, #feature h5 a:hover {color: #da1a21;}
+#feature h5 a {font-size: 13px; line-height: 16px; font-weight: normal; color: #333;}
+
+.bodytext, .abstracttext {font-size: 12px; color: #333;}
+
+.smalltext {font-size: 11px; line-height: 16px; color: #333;}
+#content h1 {font-size: 24px; line-height: 26px; font-weight: bold; margin-bottom: 5px;}
+#content h2 {font-size: 16px; font-weight: bold; line-height: 18px; color: #666; margin-bottom: 5px;}
+.photo_right {float: right; font-size: 11px; margin-left: 10px; margin-top: 5px; text-decoration: none;}
+.photo_left {margin-bottom: 10px;}
+
+
+.more_stories {margin-bottom: 25px;}
+#secondary_stories .more_stories .titlebar h4 {color: #cc0000; padding: 0; text-transform: uppercase; font-size: 11px; line-height: 11px;}
+
+.section-subnav {width: 612px; list-style: none; border: 1px solid #ccc; background: url(http://denver.rockymountainnews.com/images/section_nav_off.png) repeat-x; height: 33px; margin: 0 0 15px; padding: 0 !important; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+.section-subnav li {display: inline; float: left; height: 33px; line-height: 33px; font-size: 13px; font-weight: bold; margin-right: 0 !important;}
+.section-subnav li a {display: block; float: left;line-height: 33px; height: 33px; overflow: hidden; text-align: center;}
+.section-subnav li a:hover {background:  url(http://denver.rockymountainnews.com/images/section_nav_on.png) repeat-x;}
+.section-subnav li.logo a {-webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px;}
+
+
+/* Section story list 
+========================================================================================================*/
+.section-story {clear: both; width: 100%; margin-bottom: 10px; padding-bottom: 10px; float: left; background: url(http://denver.rockymountainnews.com/images/1px-dotted-rule.gif) repeat-x bottom;}
+.section-story img {float: right; margin: 3px 0 5px 5px; border: 1px solid #ddd; padding: 1px;}
+.section-story h3 {font-size: 16px; margin-bottom: 5px;}
+.section-story h4 {font-size: 13px; color: #999; font-weight: normal; margin-bottom: 5px;}
+.section-lead img {padding: 0; margin: 0 0 3px; border: none;}
+.section-lead h3 {font-size: 18px;}
+#content .section-story p {padding: 0; margin: 0;}
+#content .section-story a {padding: 0; margin: 0;}
+
+.sections .section-story, .comb-sec-lead {background: transparent;}
+.section-story p img {float: none; border: none; padding: 0; margin: 0;}
+.sections .section-story h3 a.section_lead {display: inline !important;}
+
+/* Band info 
+========================================================================================================*/
+table#bandsearchresult td, table#drinkspecials td, table#songlist td {padding: 5px;}
+table#bandsearchresult tr.row1 td, 
+table#drinkspecials tr.row1 td, 
+table#songlist tr.row1 td {background-color: #CCCCCC; padding: 5px; color: #000000; font-size: 11px; letter-spacing: 1px;}
+table#bandsearchresult tr.row2 td, 
+table#drinkspecials tr.row2 td, 
+table#songlist tr.row2 td {background-color: #CCCCCC; padding: 5px; color: #000000; font-size: 11px; letter-spacing: 1px;}
+table#bandsearchresult, table#drinkspecials,table#bandsearchresult, table#songlist {margin: 0px; padding: 0px; width: 100%;}
+table#discography td {font: 11px verdana,sans-serif; padding: 5px;}
+table#discography th, table#bandsearchresult th, table#drinkspecials th, table#songlist th {background-color: #666666; color: #FFFFFF; padding: 5px; text-align: left; text-decoration: none; font-size: 11px; letter-spacing: 1px;}
+table#discography tr.row1 td {background-color: #CCCCCC;}
+
+table#searchform {font-size: 11px; background-color:#fff; border-collapse: collapse;}
+table#searchform td {padding: 3px 20px; border-bottom: 1px solid #eee;}
+table#searchform th {text-align: left; font-size: 15px; font-weight: normal; color: #666; border-bottom: 1px solid #eee;}
+
+
+/* Comments
+========================================================================================================*/
+#comments {clear: both; width: 614px;}
+#comments textarea#id_comment {border: 1px solid #ccc; width: 600px; font: 20px Arial,Helvetica,sans-serif; color: #555; padding: 5px;}
+#comments h4, #comment_form h5 {border-top: 1px solid #ccc; color: #555; padding: 10px 0 0; font-size: 16px; margin-top: 10px; clear: both;}
+
+ul.comment-list {list-style: none; clear: both; margin: 15px 0;}
+.comment-list li {display: block; clear: both; padding-top: 20px;}
+
+.comment-time {width: 150px; float: left; text-align: right;}
+#content .comment-time .date, #content .comment-time .time {font-size: 11px; margin: 0 15px 0; color: #666; line-height: 11px;}
+#comments .comment-time .removal a {font-size: 11px; margin: 0 15px 0; color: #da1a21; line-height: 11px;}
+#comments .comment-time .removal a:hover {text-decoration: underline;}
+
+
+.comment-body {width: 464px; float: right;}
+
+#content .comment-body p {font-size: 13px; line-height: 20px; margin:10px 0;}
+
+#comment_form {width: 100%; clear: both;}
+#comment_form p {font-size: 14px; color: #999; margin: 10px 0;}
+#comment_form p a {color: #666; background: url(http://denver.rockymountainnews.com/static/images/drmn/blogs/dotted_line.gif) repeat-x bottom;}
+#comment_form p a:hover {color: #333;}
+#comment_form p strong {color: #666;}
+#comment_form form {margin: 10px 0 15px 0;}
+#comment_form label {color: #666; font-size: 11px; font-weight: bold; margin-top: 5px; text-transform: uppercase;}
+
+#comments p.author {background: #eee; border-top: 1px solid #ccc; font-size: 14px; font-weight: bold; color: #333; padding: 3px; margin: 0; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px;}
+
+#comments .staff p.author {padding: 0;}
+#comments .staff p.author a {padding-left: 57px; background: url(http://denver.rockymountainnews.com/images/staff-comment.gif) no-repeat 0 0; line-height: 24px; display: block;}
+
+#comments .author span {text-transform: capitalize;}
+#comments .author span a {font-size: 14px; color: #333;}
+#comments .author span a:hover {text-decoration: none; color: #DA1A21;}
+
+#post_your_comment {background: url(../../images/drmn/nav/icon_plus.gif) 0 0 no-repeat; padding-left: 30px;}
+
+
+
+.commentform table {border-collapse: collapse; margin-bottom: 15px;}
+.commentform td, .commentform th {font-size: 15px; width: 50px; height: 30px; color: #666; font-weight: normal; border-color: #ccc;}
+.commentform h4 {background: transparent !important;}
+
+
+/* Column 2 and buckets 
+========================================================================================================*/
+#content #info_box {background-color:#eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px; margin-bottom: 15px; width: auto; font-size: 11px; line-height: normal;}
+#content #info_box h2 {font-size: 12px; line-height: 14px; margin-bottom: 5px; color: #333; margin-top: 0px; padding-top: 0px;}
+#content #info_box a, #content #info_box a:visited {color: #da1a21;}
+#content #info_box a:hover {text-decoration:underline;}
+#info_box .bucket_list, #info_box p {font-size:11px;}
+#info_box ul.bucket_list {padding-top: 0px;}
+#content #info_box h4 {color: #666666; margin-bottom: 5px; font-size: 11px;}
+textarea#id_comment {width: 90%;}
+#content p.description {font-size: 11px; margin-bottom: 5px;}
+
+
+/* Crumbs
+========================================================================================================*/
+#crumbs.titlebar, #crumbs2.titlebar {margin-bottom: 5px; background: #fff url(http://denver.rockymountainnews.com/images/1px-dotted-rule.gif) repeat-x bottom; padding-bottom: 5px; position: relative;}
+#crumbs.titlebar h4, #crumbs2.titlebar h4 {color: #999; font-size: 11px; font-weight: normal; padding: 1px 0 0 !important;}
+#crumbs.titlebar h4 a, #crumbs2.titlebar h4 a {color: #666;}
+#crumbs.titlebar h4 a:hover, #crumbs2.titlebar h4 a:hover {color: #cc0000; text-decoration: underline;}
+.feedlinks {position: absolute; top: 0; right: 0;}
+.feedlinks img {height: 10px; width: 75px;}
+span.hotbread {font-weight: bold;}
+
+/* Blogs
+========================================================================================================*/
+.byline {font-size: 11px; font-weight: normal !important;}
+.pubdate {font-size: 11px; font-weight: normal !important; color:#666;}
+h5.bloghead {color:#333; font-size:16px; font-weight:bold; line-height:18px; margin:10px 0pt;}
+h5.bloghead a {color:#333;}
+h5.bloghead a:hover {color:#DA1A21;}
+#content p.blog-description, #content p.gallery-description {font-style: italic; font-size: 11px; color:#666; font-weight:bold;}
+#secondary_stories {float: none;}
+
+p.bloglinks a:hover {text-decoration: underline;}
+
+.persistent_search_list ul li {font-size: 12px; list-style: none; padding-bottom: 5px;}
+ol.searchresults {font-size:12px; line-height:16px; padding-left:15px;}
+ol.searchresults li {font-size: 12px; list-style: decimal;}
+
+
+
+
+
+
+/*  Poll results
+========================================================================================================*/
+table.poll-results {border-collapse: collapse; margin: 0 0 10px; text-align: left; width: 100%;}
+table.poll-results td, th {font-size: 15px; padding: 5px 0; color: #333;}
+table.poll-results th {font-weight: normal; color: #666; border-bottom: 1px solid #ccc;}
+table.poll-results tr {border-top: 1px solid #ccc;}
+table.poll-results tr.headers {border-top:none;}
+table.poll-results .graph .bg {width: 200px; height: 20px; background: #eee; margin-left: 10px;}
+table.poll-results .graph .bar {height: 20px; background: #da1a21;}
+table.poll-results tr.row1 .graph .bar {background: #cc0000;}
+table.poll-results tr.row2 .graph .bar {background: #990000;}
+table.poll-results tr.row3 .graph .bar {background: #520000;}
+
+table.poll-results .number {text-align: right;}
+table.poll-results .span-1 {width: 60px;}
+table.poll-results .span-2 {width: 80px;}
+
+p.poll-results a {font-size: 16px; color: #da1a21;}
+p.poll-results a:hover {font-size: 16px; color: #da1a21; text-decoration: underline;}
+.error {font-weight: bold; color:#FF0000;}
+
+li.questionnaire, li.questionnaire ul li {list-style: none; background: url(none); margin-bottom: 2px;}
+table.ranks {font-size: 11px;}
+.bucket .select {width: 175px; margin-top: 5px;}
+.movie-list {list-style-type: none; vertical-align: top;}
+.movie-list li {vertical-align: top;}
+#skyscraper {float: left; width: 160px; display: inline; margin-bottom: 20px;}
+
+#prepsTabs a{font-size: 14px; color: #666;}
+#prepsTabs div{padding-top: 5px;}
+#prepsTabs select{width: 250px;}
+#prepsTabs h3{color: #333; font-size: 13px; line-height: 15px;}
+#email a {z-index: 1; color: #333; width: 200px; float: right; display:inline; position: relative; bottom: 16px; width:170px;}
+#phone span{z-index: 1; color: #333; width: 200px; display: inline; float: right; position: relative; bottom: 16px; width:170px;}
+#email img {z-index: -1; float: left; width: 220px;}
+#phone img {z-index: -1; float: left; width: 220px;}
+#sections div.left {float: left; width: 220px; margin-right: 20px; display: inline;}
+#sections div.right {float: right; width: 350px; margin-right: 20px; display: inline;}
+#sections div.left div.photo_left img {border: 2px #ccc solid;}
+
+#yourspaceP {padding: 0;}
+
+#content_body div.bodytext div img {float: left; padding-right: 5px; display: inline; padding-bottom: 10px;}
+
+#column1 div ul li a {font-size: 12px;}
+#column1 div ul{list-style-type: none; padding-bottom: 10px;}
+/* #column1 div ul li span. {} */
+#column1 div p a {color: #333; font-size: 12px;}
+div.promoBox {background-color: #fff; padding-left: 8px; padding-bottom:2px; margin-bottom: 10px; border: 1px solid #ccc; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+
+
+/*  Special reports
+========================================================================================================*/
+.srightrail {  float: right;   width: 280px;}
+.railphotofloatright{  float:right;   margin:0 4px 4px 0;   width:140px;   position:relative;}
+.railphotofloatleft{  float:left;   margin:0 4px 4px 0;   width:140px;   position:relative;}
+
+
+/*  Yahoo search styles
+========================================================================================================*/
+.yahoo_search {color:#4E5134; font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; height:21px; left:0px; line-height:21px; position:relative; top:0px; width:340px;}
+.yahoo_search .yahoo_searchtext {color:#273E1B; font-family:"Lucida Grande",Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; height:21px; line-height:21px; float: left; margin-right: 0px;}
+.yahoo_search form {float: left;}	
+.yahoo_search input.searchfield {width:241px; float: left;}
+html > body .yahoo_search input.searchfield {width:241px; float: left;}
+.yahoo_search .powered {position: absolute; left:106px; top:31px; line-height: 10px; height: 21px;}
+
+
+/*  Registration form
+===================================================================*/
+.errorlist li {color: #990000; list-style: none; padding-bottom: 5px;}
+
+/*  Interior forms
+===================================================================*/
+.form {color: #555; font-size: 14px; padding-top: 10px; display: block;}
+.form p {display: block; clear: both;}
+.form a {color: #194775;}
+.form a:hover {color: #cc0000;}
+.form .first {border-top: 1px solid #ccc; padding-top: 10px;}
+.field-wrapper {display: inline; width: 614px; float: left; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid #ccc; margin-right: -3px; }
+.field-wrapper label {float: left; display: inline; width: 150px; text-align: right; padding-right: 15px; line-height: 22px;}
+.field-wrapper span {color: #999; font-size: 11px; margin-top: 2px;}
+.field-wrapper select {margin: 0 0 15px;}
+.field-wrapper textarea {border: 1px solid #ccc; line-height: 22px; font: 16px Arial; color: #333; background: #f5f5f5; font-weight: normal !important;}
+.field-wrapper input {border: 1px solid #ccc; height: 22px; line-height: 22px; font: 16px Arial; color: #333; background: #f5f5f5; font-weight: normal !important;} 
+.field-wrapper label.required {font-weight: bold;}
+#content .field-wrapper .field-note {padding: 3px 0 0 165px; color: #999; font-size: 11px; }
+.errorlist li {color: #cc0000; padding:0 0 10px;line-height: 16px; }
+
+
+#content p.paginate {color: #999; font-size: 14px;}
+#content p.paginate a {color: #555;}
+#content p.paginate a:hover {color: #cc0000; text-decoration: underline;}

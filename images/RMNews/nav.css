@@ -1,0 +1,38 @@
+/* Navigation Bar */
+
+#header {height: 123px !important;}
+
+#header-promo {display: none; height: 56px; width: 77px !important; position: absolute; top: 37px !important; left: 530px !important;}
+
+
+
+.nav .jobs {margin-left: 180px;}
+
+
+/*** ESSENTIAL STYLES ***/
+.nav, .nav * {margin: 0; padding: 0; list-style: none;}
+.nav {position: absolute; top: 63px; left: 0; line-height: 30px; float: left; height: 30px; padding-bottom:	0; width: 970px;}
+ul.nav {  padding-bottom: 30px; background: url(http://denver.rockymountainnews.com/images/nav-bg.png);}
+
+.nav a {padding: 0 .75em; text-decoration:none; display: block; position: relative;   cursor: pointer; -webkit-transition: none;}
+.nav a, .nav a:visited  { /* visited pseudo selector so IE6 applies text colour*/ color: #fff !important; font-size: 11px;}
+
+
+.nav li {float: left; position: static;}
+
+.nav li:hover, .nav li.sfHover {background: #999; height: 30px;}
+.nav li:hover {visibility: inherit; /* fixes IE7 'sticky bug' */}
+
+
+
+.nav a {height: 30px; float: left;}
+.nav a:hover {background: #999;}
+
+.nav ul {position: absolute; top: -999em; width: 10em; /* left offset of submenus need to match (see below) */}
+.nav ul li {width: auto; float: left;}
+.nav li:hover ul, .nav li.sfHover ul {left: 0; top: 30px; /* match top ul list item height */	z-index: 99;}
+ul.nav li:hover li ul, ul.nav li.sfHover li ul {top: -999em;}
+.nav li ul {width: 	970px;} /*IE6 soils itself without this*/
+.nav li li {position: relative;}
+.nav ul li:hover, .nav ul li.sfHover, ul.nav ul li:hover li, ul.nav ul li.sfHover li, .nav ul a:hover {background: #cc0000;}
+ul.nav ul li:hover ul, ul.nav ul li.sfHover ul {left: 0; top: 30px; /* match top ul list item height */}

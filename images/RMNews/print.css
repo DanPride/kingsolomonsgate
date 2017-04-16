@@ -1,0 +1,118 @@
+/*  GLOBAL
+=================================================*/
+
+#hidden, #site_services, #nav, #subnav, #leaderboard, .roto, #gutter, #crumbs, .leaderboard, .bucket_list, .storytools, #social_links, .subscribe_link, #comment_form, .comment a,  #footer, .bucket {
+	display: none !important;	
+	}
+
+
+
+h1,h2,h3,h4,h5,h6, p {
+	margin: 0;
+	font-family: "Helvetica Neue",Arial,Sans-Serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+	
+	
+	
+/*  LOGO
+=================================================*/	
+	
+#logo {
+	width: 100%;
+	padding: 0 0 2px;
+	border-bottom: 1px solid;
+	margin: 0 0 20px;
+}
+
+#logo a {
+	font: bold 30pt "Times New Roman","Times",Serif;
+	margin: 5px 0;
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+
+/*  STORY CONTENT
+=================================================*/
+
+h1.headline {
+	font-size: 16pt;
+	margin: 5px 0;
+}
+
+h2.subhead {
+	font-size: 14pt;
+	margin: 5px 0;
+}
+	
+h3.byline {
+	font-size: 10pt;
+	margin: 5px 0;
+	font-style: italic;
+}
+
+h4.pubdate {
+	font-size: 9pt !important;
+	margin: 5px 0 20px;
+}
+	
+.inline {
+	display: none;
+	float: right;
+	position: relative;
+	clear: both;
+	margin: 0 0 20px 50px;
+	width: 150px;
+}
+
+.inline img{
+	width: 150px;
+}
+	
+#story_body p {
+	line-height: 125%;
+	font-size: 10pt;
+	margin: 10px 0;
+}
+
+
+
+#story_body {
+	page-break-after:always;
+}
+
+
+/*  COMMENTS
+=================================================*/
+
+
+
+#comments .titlebar h4 {
+	display: block;
+	color: #000;
+	font-size: 14pt;
+	margin: 10px 0;
+}
+
+.comment {
+	border-top: 1px solid #ccc;
+}
+
+h5.comment-info {
+	color: #666;
+	font-size: 9pt;
+	margin: 10px 0;
+}
+
+.comment p {
+	line-height: 18px;
+	font-size: 10pt;
+	margin: 10px 0;
+}

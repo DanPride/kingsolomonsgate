@@ -1,0 +1,509 @@
+html {
+	width: 100%;
+	height: 100%;
+	}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px; 
+	background-color: #740000; 
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	}
+#insider { 
+		color: green; 
+		font-size: 18px; 
+		}
+.clear {
+	clear: both;
+	}
+.clr {
+	clear: both;
+	}
+	
+ul,li,p,h1,h2,h3,h5,h6 {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	}
+	
+img {
+	border: none;
+	}
+	
+hr {
+	border: 0px;
+	height: 1px;
+	color: #ccc;
+	background-color: #ccc;
+	}
+	
+
+/* *************************************************************************************************** */
+/* ******************************************************************************* Inline Text Classes */
+/* *************************************************************************************************** */
+.xsmall { 
+	font-size: 9px; 
+	}
+.small { 
+	font-size: 10px;
+	}
+.normal { 
+	font-size: 11px; 
+	}
+.medium { 
+	font-size: 14px; 
+	}
+.large { 
+	font-size: 16px; 
+	}
+.xlarge { 
+	font-size: 20px; 
+	}
+.huge { 
+	font-size: 24px; 
+	}
+.bold { 
+	font-weight: bold; 
+	}
+.no_bold { 
+	font-weight: normal; 
+	}
+.italic { 
+	font-style:  italic; 
+	}
+.no_italic { 
+	font-style:  normal; 
+	}
+.small_caps { 
+	font-variant: small-caps; 
+	}
+	
+	
+/* *************************************************************************************************** */
+/* ********************************************************************************* Color Classes CSS */
+/* *************************************************************************************************** */
+.blue {
+	color: #7ccdd2;
+	}
+.gray {
+	color: #bcbdc0;
+	}
+.green {
+	color: #b0733d;
+	}
+.red {
+	color: #670000;
+	}
+.orange {
+	color: #b0733d;
+	}
+.white {
+	color: #ffffff;
+	}
+	
+
+/* *************************************************************************************************** */
+/* ******************************************************************************* Styling Classes CSS */
+/* *************************************************************************************************** */
+.border_left {
+	border-left: 1px solid #3a1c1c;
+	}
+.border_right {
+	border-right: 1px solid #3a1c1c;
+	}
+	
+	
+/* *************************************************************************************************** */
+/* ****************************************************************************************** Form CSS */
+/* *************************************************************************************************** */
+legend { 
+	color: black;
+	font-size: 16px;
+	}
+form { 
+	margin: 0px 0px 0px 0px;
+	}
+input.default {
+	width: 200px;
+	}
+.input_class {
+	margin-bottom: 5px;
+	border: 1px solid #8c8b8b;
+	}
+.input_height {
+	height: 20px;
+	}
+textarea, input, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	}
+label {
+	margin: 0;
+	color: #393939;
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+	}
+	
+
+/* *************************************************************************************************** */
+/* ****************************************************************************** Primary Wrappers CSS */
+/* *************************************************************************************************** */
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	}
+	#wrapper_main {
+		margin: 0 auto;
+		width: 100%;
+		background-image: url(../images/3da_site_background.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #ffffff;
+		}
+		#wrapper_top {
+			margin: 0 auto;
+			width: 100%;
+			background-image: url(../images/3da_gradient_top.png);
+			background-repeat: repeat-x;
+			}
+			#wrapper_header {
+				margin: 0 auto;
+				width: 1000px;
+				height: 250px;
+				}
+				#logo {
+					float: left;
+					width: 1000px;
+					height: 195px;
+					}
+					.logo_position {
+						margin: 120px 525px 0 165px;
+						}
+
+				#menu { 					/* View Menu CSS below */
+					float: left;
+					width: 1000px;
+					height: 55px;
+					}
+
+			#wrapper_content { 			/* View Content CSS below */
+				margin: 0 auto;
+				width: 1000px;
+				padding-bottom: 30px;
+				}
+
+#wrapper_footer { 						/* View Footer CSS below */
+	margin: 0 auto;
+	width: 1000px;
+	height: 50px;
+	}
+	
+	
+/* *************************************************************************************************** */
+/* ***************************************************************************************** Login CSS */
+/* *************************************************************************************************** */
+.inpt {
+	margin: 3px 15px;
+	width: 195px;
+	height: 20px;
+	font-size: 12px;
+	color: #969696;
+	border: 1px solid #a1a1a1;
+	}
+.checkbox {
+	margin-left: 12px;
+	}
+	.checkbox_span {
+		font-size: 10px;
+		color: #000;
+		font-weight: bold;
+		}
+.forgot_pass_get_access {
+	width: 195px;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 10px;
+	text-align: right;
+	}
+
+
+
+/* *************************************************************************************************** */
+/* *********************************************************************************** Search Page CSS */
+/* *************************************************************************************************** */
+.search_results {
+	font-size: 12px;
+	}
+	
+
+
+/* *************************************************************************************************** */
+/* ************************************************************************* Open File Report Page CSS */
+/* *************************************************************************************************** */
+#openFileReport {
+	width: 905px;
+	margin: 20px auto;
+	padding: 2px;
+	}
+#pageHeaderTitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #500;
+	padding: 10px;
+	}
+.columnHeader {
+	text-align: center;
+	border-bottom: 1px solid #999;
+	padding: 10px 0;
+	font-size: 10px;
+	font-weight: bold;
+	}
+.open_file_report_results {
+	font-size: 12px;
+	}
+.column1 {
+	width:35px;
+	font-size: 12px;
+	font-weight:bold;
+	font-style:italic;
+	color:#900;
+	padding:10px 0 5px 0;
+	}
+.column2 {
+	width:210px;
+	font-size: 12px;
+	padding:10px 0 5px 0;
+	}
+.column3 {
+	width:100px;
+	font-size: 12px;
+	padding:10px 0 5px 0;
+	text-align:center;
+	}
+.column4 {
+	width:100px;
+	font-size: 12px;
+	padding:10px 0 5px 0;
+	text-align:center;
+	}
+.column5 {
+	width:320px;
+	font-size: 12px;
+	padding:10px 0 5px 0;
+	}
+.column6 {
+	width:70px;
+	font-size:12px;
+	text-align:center;
+	font-weight:bold;
+	background:#e5e5e5;
+	padding:10px 0 5px 0;
+	color:#500;
+	}
+.column7 {
+	width:80px;
+	font-size:12px;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0 5px 0;
+	color:#500;
+	}
+.column8 {
+	width:80px;
+	font-size:12px;
+	text-align:center;
+	font-weight:bold;
+	background:#e5e5e5;
+	padding:10px 0 5px 0;
+	color:#500;
+	}
+		
+		
+			
+/* *************************************************************************************************** */
+/* ****************************************************************************************** Menu CSS */
+/* *************************************************************************************************** */
+#menu ul {
+	width: 1000px;
+	height: 55px;
+	}
+	#menu ul li {
+		margin: 0 5px 0 0;
+		padding: 0;
+		position: relative;
+		display: block;
+		width: 117px;
+		height: 48px;
+		float: left;
+		}
+	#menu span {
+		width: 117px;
+		position: relative;
+		margin-left: 5px;
+		font-size: 12px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		top: 27px;
+		}
+	#menu ul li a {
+		display: block;
+		width: 117px;
+		height: 48px;
+		background-color: #2e2e2e;
+		color: #ffffff;
+		text-decoration: none;
+		border-bottom: 7px solid #ebebeb;
+		}
+		#menu ul li a:hover {
+			background-color: #740000;
+			color: #ffffff;
+			text-decoration: none;
+			border-bottom: 7px solid #bbb;
+			}		
+
+/* *************************************************************************************************** */
+/* ********************************************************************************** Content Page CSS */
+/* *************************************************************************************************** */
+	#wrapper_content h1 {
+		padding: 50px 10px 5px 0;
+		color: #2e2e2e;
+		font-family: "Arial Narrow";
+		font-size: 45px;
+		}
+	#wrapper_content h2 {
+		padding: 5px 10px 0px 0;
+		color: #670000;
+		font-size: 17px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+	#wrapper_content h3 {
+		padding: 5px 10px 0 0;
+		color: #2b2b2b;
+		font-size: 14px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+	#wrapper_content h4 {
+		margin: 0 30px 0 0;
+		color: #2f0000;
+		font-size: 12px;
+		text-align: right;
+		font-weight: bold;
+		}
+	#wrapper_content h5 {
+		margin: 0 5px 0 0;
+		color: #393939;
+		font-size: 12px;
+		text-align: right;
+		}
+	#wrapper_content h6 {}
+	#wrapper_content p {
+		margin: 0 10px 10px 0;
+		color: #393939;
+		font-size: 12px;
+		text-align: left;
+		line-height: 1.6em;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+	#wrapper_content a {
+		color: #670000;
+		text-decoration: underline;
+		}
+		#wrapper_content a:hover {
+			color: #9e0000;
+			text-decoration: underline;
+			}
+	#wrapper_content ul {
+		padding: 0 10px 5px 25px;
+		color: #393939;
+		font-size: 12px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		#wrapper_content ul li {
+			list-style-type: disc;
+			line-height: 1.6em;
+			margin: 8px 0;
+			}
+		#wrapper_content ul ul {
+			padding-left: 15px;
+			}
+			#wrapper_content ul ul li {
+				list-style-type: circle;							
+				}
+			#wrapper_content ul ul ul {
+				padding-left: 15px;
+				}
+				#wrapper_content ul ul ul li {
+					list-style-type: square;								
+					}
+	#wrapper_content ol {
+		padding: 0 10px 5px 25px;
+		color: #393939;
+		font-size: 12px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		#wrapper_content ol li {
+			list-style-type: decimal;
+			line-height: 1.6em;
+			margin: 0 0 12px 0;
+			}
+		#wrapper_content ol ol {
+			padding-left: 15px;
+			}
+			#wrapper_content ol ol li {
+				list-style-type: lower-greek;							
+				}
+
+/* For page with 2 columns */
+#column_left {
+	float: left;
+	width: 720px;
+	}
+	#content_left {
+		margin: 0 50px 0 130px;
+		width: 540px;
+		}
+
+#column_right {
+	float: left;
+	width: 280px;
+	}
+	#content_right {
+		margin: 0 25px;
+		}
+		
+/* For page with single column */
+#column_full {
+	float: left;
+	width: 1000px;
+	}
+	#content_full {
+		margin: 0 75px;
+		width: 850px;
+		}
+	#content_open_file_report {
+		margin: 0;
+		width: 1000px;
+		}
+	
+			
+			
+/* *************************************************************************************************** */
+/* **************************************************************************************** Footer CSS */
+/* *************************************************************************************************** */
+#wrapper_footer p {
+	margin: 5px 20px 0 0;
+	text-align: right;
+	font-family: 'Arial Narrow';
+	color: #ffffff;
+	font-size: 11px;
+	}
+#wrapper_footer a {
+	color: #ffffff;
+	text-decoration: none;
+	}
+	#wrapper_footer a:hover {
+		color: #ebebeb;
+		text-decoration: underline;
+		}

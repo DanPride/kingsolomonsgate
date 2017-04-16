@@ -1,0 +1,23 @@
+Here is the traceroute output from here (www.kingsolomonsgate.com) to your computer (24.128.67.186):
+
+HOST: pro15.abac.com              Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. dr1.sandiego.abac.net         0.0%    10    0.3   0.4   0.3   0.6   0.1
+  2. gi5-0.cr1.sandiego.abac.net   0.0%    10    0.3   0.3   0.2   0.3   0.0
+  3. p4-0.hsa1.sdg1.bbnplanet.net  0.0%    10    1.1   1.1   1.0   1.5   0.1
+  4. ge-7-0-0.mp1.SanDiego1.Level  0.0%    10    1.2   7.5   1.1  42.3  14.0
+  5. ae-0-0.bbr2.LosAngeles1.Leve  0.0%    10    4.2   5.2   4.2  13.2   2.8
+  6. ae-11-53.car1.LosAngeles1.Le  0.0%    10    4.4   5.8   4.4  18.1   4.3
+  7. 192.205.33.225                0.0%    10    4.6   7.0   4.4  28.8   7.7
+  8. 12.127.3.214                  0.0%    10   77.8  77.7  77.2  78.7   0.4
+  9. tbr2-cl21.sl9mo.ip.att.net    0.0%    10   77.9  77.8  77.3  78.3   0.3
+ 10. tbr2-cl7.cgcil.ip.att.net     0.0%    10   77.0  77.0  76.8  77.4   0.2
+ 11. tbr2-cl5.cb1ma.ip.att.net     0.0%    10   76.2  76.4  76.1  76.7   0.2
+ 12. sar1-a300s3.cb1ma.ip.att.net  0.0%    10   75.6  75.8  75.6  76.7   0.3
+ 13. 12.117.239.38                 0.0%    10   76.5  76.4  76.3  76.5   0.1
+ 14. te-9-3-ur02.lawrence.ma.bost  0.0%    10   76.9  76.9  76.7  77.3   0.2
+ 15. te-9-1-ur01.groveland.ma.bos  0.0%    10   78.2  78.1  77.8  78.5   0.2
+ 16. 10g-8-1-ur01.newburyport.ma.  0.0%    10   77.5  84.1  77.4 143.6  20.9
+ 17. 10g-9-2-ur02.exeter.nh.bosto  0.0%    10   78.9  79.0  78.7  79.5   0.2
+ 18. ge-2-1-ur01.portsmouth.nh.bo  0.0%    10   78.1  78.1  77.9  78.4   0.1
+ 19. ge-0-2-ubr01.portsmouth.nh.b  0.0%    10   79.2  79.3  79.1  80.0   0.3
+ 20. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0

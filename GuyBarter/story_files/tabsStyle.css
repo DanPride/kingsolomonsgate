@@ -1,0 +1,51 @@
+.regionTabContainer {
+	 width:792px;
+	 height:27px;
+	 margin-top:14px;
+	 float:left}
+/*
+.linkRow {
+	cursor:pointer;
+	cursor:hand} */
+
+.regionTabLeft {
+	background-image:url(/pix/tabs/tab_left.gif);
+	background-repeat:no-repeat;
+	width:10px;
+	height:27px}
+
+.regionTabCenter {
+	background-image:url(/pix/tabs/tabCenterBG.gif);
+	background-repeat:repeat-x;
+	height:27px;
+	text-align:center}
+
+.regionTabRight {
+	background-image:url(/pix/tabs/tab_right.gif);
+	background-repeat:no-repeat;
+	width:10px;
+	height:27px}
+
+.regionClassTab {
+	width:123px;
+	float:left;
+	margin-right:1px}
+
+.regionRETab {
+	width:124px;
+	float:left;
+	margin-right:1px}
+
+.regionBizDirTab {
+	width:275px;
+	float:left;
+	margin-right:1px}
+
+.regionSpecSecTab {
+	width:163px;
+	float:left;
+	margin-right:1px}
+
+.regionClickTixTab {
+	width:103px;
+	float:left}
